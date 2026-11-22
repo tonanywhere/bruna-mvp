@@ -12,16 +12,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ton-anywhere/bruna-mvp.git"
+    "url": "git+https://github.com/tonanywhere/bruna-mvp.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/ton-anywhere/bruna-mvp/issues"
+    "url": "https://github.com/tonanywhere/bruna-mvp/issues"
   },
-  "homepage": "https://github.com/ton-anywhere/bruna-mvp#readme",
+  "homepage": "https://github.com/tonanywhere/bruna-mvp#readme",
   "devDependencies": {
     "jest": "^30.4.2"
   }

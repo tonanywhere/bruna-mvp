@@ -5,7 +5,7 @@ Bruna UI is a minimalist, high-performance design critique tool powered by Gemma
 
 ## 🏗️ Core Architectural Principles (Non-Negotiable)
 - **Extreme Minimalism:** Rails launched with `--minimal`. Only include dependencies explicitly required for the visual loop.
-- **Pinned SDK:** The `cerebras` gem is pinned to version `0.1.0` and fetched directly from its GitHub repository via Bundler (`github: 'ton-anywhere/cerebras-cloud-sdk-ruby'`). Do not attempt to use a public gem version.
+- **Pinned SDK:** The `cerebras` gem is pinned to version `0.1.0` and fetched directly from its GitHub repository via Bundler (`github: 'tonanywhere/cerebras-cloud-sdk-ruby'`). Do not attempt to use a public gem version.
 - **Low-Latency Transport:** Mandatory use of ActionCable (WebSockets) + Hotwire/Turbo. Standard HTTP POST requests for image transfer are forbidden.
 - **Cerebras-Specific Handling:** The API is not generically OpenAI-compatible. Reasoning tokens must be handled as distinct data from the final content.
 
@@ -54,7 +54,7 @@ bin/dev                     # Start Rails server and ActionCable
 ```
 
 ### Notable Configurations
-- `Gemfile` — pins the SDK to `0.1.0` via `github: 'ton-anywhere/cerebras-cloud-sdk-ruby'`.
+- `Gemfile` — pins the SDK to `0.1.0` via `github: 'tonanywhere/cerebras-cloud-sdk-ruby'`.
 - `.env` — must contain the `CEREBRAS_API_KEY`.
 
 ### Standards

@@ -1,5 +1,5 @@
 GIT
-  remote: https://github.com/ton-anywhere/cerebras-cloud-sdk-ruby.git
+  remote: https://github.com/tonanywhere/cerebras-cloud-sdk-ruby.git
   revision: 12349d95cb1cdff5f52e82687d165c77a9bc3747
   specs:
     cerebras (0.1.0)
